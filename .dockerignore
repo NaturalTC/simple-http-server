@@ -1,0 +1,6 @@
+target/*.jar.original
+target/*.jar.original.*
+*.log
+.git
+.idea
+*.iml
