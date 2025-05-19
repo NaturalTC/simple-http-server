@@ -7,7 +7,7 @@
 ./scripts/docker.sh          # Run Docker container
 ```
 
-Build
+## **Build**
 
 Note: Ensure the Maven Wrapper is executable on Unix (e.g., `chmod +x mvnw`).
 
@@ -15,13 +15,13 @@ Note: Ensure the Maven Wrapper is executable on Unix (e.g., `chmod +x mvnw`).
 ./mvnw clean package        # Compile code and package the fat JAR
 ```
 
-Run
+## **Run**
 
 ```bash
 java -jar target/http-server-project-0.0.1-SNAPSHOT.jar
 ```
 
-Connect to Server
+## **Connect to Server**
 
 ```bash
 nc localhost 8080
